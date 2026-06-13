@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "source_pdf": "sample_pdf_to_markdown_note.pdf",
+    "generated_at": "2026-06-13T16:19:05.640282",
+    "total_pages": 3,
+    "total_blocks": 12
+  },
+  "blocks": [
+    {
+      "page": 1,
+      "block_id": "p1_b1",
+      "type": "heading",
+      "text": "附注36 租赁负债",
+      "source": {
+        "page": 1,
+        "bbox": {
+          "x0": 50.0,
+          "y0": 58.95600128173828,
+          "x1": 184.406005859375,
+          "y1": 82.697998046875
+        },
+        "method": "pymupdf_text_extraction",
+        "max_font_size": 18.0
+      }
+    },
+    {
+      "page": 1,
+      "block_id": "p1_b2",
+      "type": "paragraph",
+      "text": "以下数据用于测试 PDF 转 Markdown、表格抽取、页码来源保留和 GT 候选审核。",
+      "source": {
+        "page": 1,
+        "bbox": {
+          "x0": 50.0,
+          "y0": 97.41999816894531,
+          "x1": 418.2700500488281,
+          "y1": 110.61000061035156
+        },
+        "method": "pymupdf_text_extraction",
+        "max_font_size": 10.0
+      }
+    },
+    {
+      "page": 1,
+      "block_id": "p1_b3",
+      "type": "table_caption",
+      "text": "表36-1 租赁负债到期分析",
+      "source": {
+        "page": 1,
+        "bbox": {
+          "x0": 50.0,
+          "y0": 125.30400085449219,
+          "x1": 187.8199920654297,
+          "y1": 141.1320037841797
+        },
+        "method": "pymupdf_text_extraction",
+        "max_font_size": 12.0
+      }
+    },
+    {
+      "page": 1,
+      "block_id": "p1_b4",
+      "type": "footnote",
+      "text": "注：金额单位为百万元；合计数应等于各明细项目之和。",
+      "source": {
+        "page": 1,
+        "bbox": {
+          "x0": 50.0,
+          "y0": 315.4779968261719,
+          "x1": 275.0,
+          "y1": 327.3489990234375
+        },
+        "method": "pymupdf_text_extraction",
+        "max_font_size": 9.0
+      }
+    },
+    {
+      "page": 1,
+      "block_id": "p1_b5",
+      "type": "paragraph",
+      "text": "本附注与 Excel GT 核对时，需重点关注行名缺失、期间列识别、数值一致性和来源页码。",
+      "source": {
+        "page": 1,
+        "bbox": {
+          "x0": 50.0,
+          "y0": 341.4200134277344,
+          "x1": 445.8999938964844,
+          "y1": 354.6099853515625
+        },
+        "method": "pymupdf_text_extraction",
+        "max_font_size": 10.0
+      }
+    },
+    {
+      "page": 1,
+      "block_id": "tbl_1",
+      "type": "table",
+      "table_id": "t1",
+      "header": [
+        "项目",
+        "2026-06-30",
+        "2025-12-31"
+      ],
+      "rows": [
+        [
+          "一年以内",
+          "120.50",
+          "110.25"
+        ],
+        [
+          "一至两年",
+          "88.00",
+          "91.00"
+        ],
+        [
+          "两至五年",
+          "160.75",
+          "149.30"
+        ],
+        [
+          "合计",
+          "369.25",
+          "350.55"
+        ]
+      ],
+      "row_count": 4,
+      "col_count": 3,
+      "source": {
+        "page": 1,
+        "method": "pdfplumber_table_extraction",
+        "table_index": 0
+      }
+    },
+    {
+      "page": 2,
+      "block_id": "p2_b1",
+      "type": "heading",
+      "text": "附注37 应付职工薪酬",
+      "source": {
+        "page": 2,
+        "bbox": {
+          "x0": 50.0,
+          "y0": 58.95600128173828,
+          "x1": 220.406005859375,
+          "y1": 82.697998046875
+        },
+        "method": "pymupdf_text_extraction",
+        "max_font_size": 18.0
+      }
+    },
+    {
+      "page": 2,
+      "block_id": "p2_b2",
+      "type": "table_caption",
+      "text": "表37-1 职工薪酬明细",
+      "source": {
+        "page": 2,
+        "bbox": {
+          "x0": 50.0,
+          "y0": 97.30400085449219,
+          "x1": 163.8199920654297,
+          "y1": 113.13200378417969
+        },
+        "method": "pymupdf_text_extraction",
+        "max_font_size": 12.0
+      }
+    },
+    {
+      "page": 2,
+      "block_id": "p2_b3",
+      "type": "paragraph",
+      "text": "补充说明：本表中的“工资、奖金、津贴和补贴”在部分 Excel 中可能被拆成两行，审核时需判断是否为同一口径。",
+      "source": {
+        "page": 2,
+        "bbox": {
+          "x0": 50.0,
+          "y0": 302.4779968261719,
+          "x1": 508.8110046386719,
+          "y1": 314.3489990234375
+        },
+        "method": "pymupdf_text_extraction",
+        "max_font_size": 9.0
+      }
+    },
+    {
+      "page": 2,
+      "block_id": "p2_b4",
+      "type": "footnote",
+      "text": "脚注：如果 PDF 与 Excel 金额不一致，不要直接补入 final_gt，应先标记为 NEED_RECHECK。",
+      "source": {
+        "page": 2,
+        "bbox": {
+          "x0": 50.0,
+          "y0": 328.4779968261719,
+          "x1": 429.611083984375,
+          "y1": 340.3489990234375
+        },
+        "method": "pymupdf_text_extraction",
+        "max_font_size": 9.0
+      }
+    },
+    {
+      "page": 2,
+      "block_id": "tbl_2",
+      "type": "table",
+      "table_id": "t2",
+      "header": [
+        "项目",
+        "2026-06-30",
+        "2025-12-31",
+        "备注"
+      ],
+      "rows": [
+        [
+          "工资、奖金、津贴和补贴",
+          "210.00",
+          "198.00",
+          "含绩效"
+        ],
+        [
+          "职工福利费",
+          "28.50",
+          "25.10",
+          ""
+        ],
+        [
+          "社会保险费",
+          "46.20",
+          "43.80",
+          ""
+        ],
+        [
+          "住房公积金",
+          "31.30",
+          "29.60",
+          ""
+        ],
+        [
+          "合计",
+          "316.00",
+          "296.50",
+          ""
+        ]
+      ],
+      "row_count": 5,
+      "col_count": 4,
+      "source": {
+        "page": 2,
+        "method": "pdfplumber_table_extraction",
+        "table_index": 0
+      }
+    },
+    {
+      "page": 3,
+      "block_id": "img_3",
+      "type": "image_page",
+      "needs_ocr": true,
+      "source": {
+        "page": 3,
+        "method": "image_detection",
+        "text_length": 10
+      },
+      "text_hint": "第 3 页（图片页）"
+    }
+  ]
+}
